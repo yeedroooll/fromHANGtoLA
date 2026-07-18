@@ -95,7 +95,7 @@ var TIERS = [
   {id:"t5",nm:"拉",bg:"#F8FAFC",tc:"#1e293b"}
 ];
 var CL=["#DC2626","#EA580C","#F59E0B","#FDE68A","#F8FAFC"];
-var st={title:"xxxx从夸到拉",items:[],asgn:{}};
+var st={title:"xxxx从夯到拉",items:[],asgn:{}};
 var nid=1,did=null,curImg=null;
 function sv(){try{localStorage.setItem("rkp",JSON.stringify({t:st.title,it:st.items,as:st.asgn,ni:nid}))}catch(e){}}
 function ld(){try{var d=JSON.parse(localStorage.getItem("rkp"));if(!d)return 0;st.title=d.t||"xxxx从夸到拉";st.items=d.it||[];st.asgn=d.as||{};nid=d.ni||1;return 1}catch(e){return 0}}
